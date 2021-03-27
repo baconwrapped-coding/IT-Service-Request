@@ -26,13 +26,13 @@
                         <a class="nav-link mx-1 px-3" href="repair.php">Repair</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-1 px-3" href="about.php">About</a>
+                        <a class="nav-link mx-1 px-3 disabled" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-1 px-3" href="contact.php">Contact</a>
+                        <a class="nav-link mx-1 px-3 disabled" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-1 px-3" href="faqs.php">FAQs</a>
+                        <a class="nav-link mx-1 px-3 disabled" href="faqs.php">FAQs</a>
                     </li>
                 </ul>
             </div>
