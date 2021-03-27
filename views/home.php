@@ -16,7 +16,7 @@
 
         <!-- Buttons -->
         <section class="container-fluid">
-            <div class="general-container">
+            <div class="general-container d-flex justify-content-center">
                 <div class="row">
                     <div class="card" style="width: 18rem;">
                         <img src="../images/repair.png" class="card-img-top" alt="Repair">

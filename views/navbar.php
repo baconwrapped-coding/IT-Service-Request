@@ -1,14 +1,15 @@
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<header class="container-fluid" style="margin-bottom: 95px">
+    <nav class="navbar navbar-expand-md navbar-custom bg-dark navbar-dark fixed-top px-5 py-0">
         <div class="container-fluid">
             <a class="navbar-brand" href="home.php">CompHub</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <div class="collapse navbar-collapse my-2 py-2" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.php">Home</a>
+                        <a class="nav-link" aria-current="page" href="home.php">Home</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

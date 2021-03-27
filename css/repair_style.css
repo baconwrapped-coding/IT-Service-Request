@@ -1,0 +1,16 @@
+.repair-form input {
+    width: 98%;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #1c1a18;
+    border: 1px solid rgba(28, 26, 24, 0.5);
+}
+
+.repair-form textarea{
+    resize: none;
+    width: 98%;
+    padding: 10px 15px;
+    color: #1c1a18;
+    border: 1px solid rgba(28, 26, 24, 0.5);
+}

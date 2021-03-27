@@ -1,0 +1,14 @@
+body {
+    width: 100vw;
+    background-color: #e5e5e5;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+

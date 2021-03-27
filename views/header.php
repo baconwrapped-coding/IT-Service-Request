@@ -7,6 +7,8 @@
     <title>CompHub</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/index.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/repair_style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/footer_style.css?v=<?php echo time(); ?>">
     <!-- /CSS -->
     
     <!-- Bootstrap 5 -->
