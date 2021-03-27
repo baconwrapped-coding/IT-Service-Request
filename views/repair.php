@@ -3,7 +3,7 @@
     include('navbar.php');
 ?>
 
-<section class="m-auto" style="width:55%">
+<section class="repair-holder m-auto" style="width:55%">
     <h1>Ask for Assistance</h1>
     <hr/>
     <form action="request.php" method="post">
@@ -12,7 +12,7 @@
                 <h4>Client Name</h4>
                 <div class="row">
                     <div class="form-group pb-4">
-                        <input id="repair-clientname" name="client_name" type="text" placeholder="Client Name" required/>
+                        <input id="repair-firstname" name="client_name" type="text" placeholder="Client Name" required/>
                     </div>
                 </div>
 

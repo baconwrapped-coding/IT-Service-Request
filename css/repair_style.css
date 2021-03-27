@@ -1,3 +1,23 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.repair-holder h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.repair-holder h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.repair-holder h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+
 .repair-form input {
     width: 98%;
     height: 40px;
