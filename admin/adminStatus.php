@@ -3,6 +3,7 @@
 <head>
   <title>Administrator</title>
   <meta charset="utf-8">
+  <link rel="shortcut icon" href="../images/CompHub-Logo.png" type="image/png+xml" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/adminStatus.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -18,32 +19,34 @@
       $result = $mysqli->query("SELECT * FROM ticket") or die($mysqli->error);
 ?>
 
-  <header>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Administrator</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link disabled" href="adminUser.php">Accounts<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="adminProduct.php">Product</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="adminStatus.php">Services</a>
-            </li>
-            <li>
-              <button class="btn btn-dark" data-toggle="modal" data-target=".bs-example-modal-sm">Logout</button>
-            </li>
-          </ul>
-        </div>
+  <header class="container-fluid" style="margin-bottom: 125px">
+    <nav class="navbar navbar-expand-md navbar-custom fixed-top px-5 py-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.php">
+                <img src="../images/CompHub-Logo.png" alt="CompHub" class="mx-auto my-1" style="height: 70px" />
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse my-2 py-2" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="adminUser.php">Accounts<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="adminProduct.php">Product</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="adminStatus.php">Services</a>
+                </li>
+                <li>
+                  <button class="btn btn-dark" data-toggle="modal" data-target=".bs-example-modal-sm">Logout</button>
+                </li>
+              </ul>
+            </div>
+          </div>
       </nav>
-    </div>
   </header>
 
   <div class="container">
