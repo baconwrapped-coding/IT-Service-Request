@@ -2,7 +2,7 @@
 
 require '../source/db_connect.php';
 
-if(isset($_POST['register_button'])){
+if(isset($_POST['submit_button'])){
     $name = $_POST['client_name'];
     $email = $_POST['email'];
     $empid = $_POST['empID'];
