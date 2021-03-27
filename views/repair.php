@@ -6,30 +6,29 @@
 <section>
     <h1>Ask for Assistance</h1>
     <hr/>
+    <form action="request.php" method="post">
     <div class="row">
         <div class="col-md-6">
-            <h4>Name</h4>
+            <h4>Client Name</h4>
             <div class="row">
                 <div class="form-group">
-                    <input id="repair-firstname" name="firstname" type="text" placeholder="First Name"/>
-                    <input id="repair-lastname" name="lastname" type="text" placeholder="Last Name"/>
+                    <input id="repair-firstname" name="client_name" type="text" placeholder="First Name" required/>
                 </div>
             </div>
 
             <h4>Email</h4>
             <div class="form-group">
-                <input id="repair-email" name="email" type="text" placeholder="Contact Email"/>
-                <input id="repair-confEmail" name="confEmail" type="text" placeholder="Confirm Email"/>
+                <input id="repair-email" name="email" type="text" placeholder="Contact Email" required/>
             </div>
 
             <h4>Employee ID</h4>
             <div class="form-group">
-                <input id="repair-empID" name="empID" type="text" placeholder="Employee ID"/>
+                <input id="repair-empID" name="empID" type="text" placeholder="Employee ID" required/>
             </div>
 
             <h4>Department</h4>
             <div class="form-group">
-                <input id="repair-dept" name="department" type="text" placeholder="Employee ID"/>
+                <input id="repair-dept" name="department" type="text" placeholder="Employee ID" required/>
             </div>
             
             <hr/>
@@ -38,12 +37,12 @@
 
             <h4>Subject</h4>
             <div class="form-group">
-                <input id="issue-subject" name="issueSubject" type="text"/>
+                <input id="issue-subject" name="issueSubject" type="text" required/>
             </div>
 
             <h4>Description</h4>
             <div class="form-group">
-                <textarea id="issue-description" name="issueSubject" type="text" rows="15"></textarea>
+                <textarea id="issue-description" name="desc" type="text" rows="15" required></textarea>
             </div>
         </div>
     </div>
@@ -56,8 +55,10 @@
         </div>
         <div class="col-md-2">
             <input name="register_button" type="submit" value="Submit" class="btn custom-signup">
+
         </div>
     </div>
+    </form>
 </section>
 
 <?php include('footer.php'); ?>
